@@ -47,7 +47,6 @@ C:\AlarmaJF\Proyecto\AppJFalarmante\Cliente\bin\Debug\Entidad.dll
 C:\AlarmaJF\Proyecto\AppJFalarmante\Cliente\bin\Debug\GMap.NET.Core.dll
 C:\AlarmaJF\Proyecto\AppJFalarmante\Cliente\bin\Debug\GMap.NET.WindowsForms.dll
 C:\AlarmaJF\Proyecto\AppJFalarmante\Cliente\bin\Debug\Negocio.dll
-C:\AlarmaJF\Proyecto\AppJFalarmante\Cliente\bin\Debug\Servicio.dll
 C:\AlarmaJF\Proyecto\AppJFalarmante\Cliente\bin\Debug\Datos.dll
 C:\AlarmaJF\Proyecto\AppJFalarmante\Cliente\bin\Debug\FireSharp.dll
 C:\AlarmaJF\Proyecto\AppJFalarmante\Cliente\bin\Debug\Microsoft.Threading.Tasks.dll
@@ -55,7 +54,6 @@ C:\AlarmaJF\Proyecto\AppJFalarmante\Cliente\bin\Debug\Newtonsoft.Json.dll
 C:\AlarmaJF\Proyecto\AppJFalarmante\Cliente\bin\Debug\Microsoft.Threading.Tasks.Extensions.dll
 C:\AlarmaJF\Proyecto\AppJFalarmante\Cliente\bin\Debug\Entidad.pdb
 C:\AlarmaJF\Proyecto\AppJFalarmante\Cliente\bin\Debug\Negocio.pdb
-C:\AlarmaJF\Proyecto\AppJFalarmante\Cliente\bin\Debug\Servicio.pdb
 C:\AlarmaJF\Proyecto\AppJFalarmante\Cliente\bin\Debug\GMap.NET.Core.xml
 C:\AlarmaJF\Proyecto\AppJFalarmante\Cliente\bin\Debug\GMap.NET.WindowsForms.xml
 C:\AlarmaJF\Proyecto\AppJFalarmante\Cliente\bin\Debug\Datos.pdb

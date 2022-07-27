@@ -27,7 +27,7 @@
     <UpdateUrl>https://github.com/VariableSoporte/AppJFalarmante/tree/v1.0.0/</UpdateUrl>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationRevision>3</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -78,7 +78,6 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Management" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
@@ -159,10 +158,6 @@
     <ProjectReference Include="..\Negocio\Negocio.csproj">
       <Project>{439e882a-af38-455d-bbef-9d5fd9ab5b5e}</Project>
       <Name>Negocio</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Servicio\Servicio.csproj">
-      <Project>{9528e063-0e77-40f3-8835-c374a169995c}</Project>
-      <Name>Servicio</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

@@ -9,8 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Negocio;
 using Entidad;
-using Cliente.Properties;
-using System.Resources;
+
 
 namespace Cliente
 {
