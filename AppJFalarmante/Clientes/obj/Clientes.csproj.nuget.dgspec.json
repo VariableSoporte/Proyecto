@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\AlarmaJF\\Proyecto\\AppJFalarmante\\Clientes\\Clientes.csproj": {}
+  },
+  "projects": {
+    "C:\\AlarmaJF\\Proyecto\\AppJFalarmante\\Clientes\\Clientes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AlarmaJF\\Proyecto\\AppJFalarmante\\Clientes\\Clientes.csproj",
+        "projectName": "Clientes",
+        "projectPath": "C:\\AlarmaJF\\Proyecto\\AppJFalarmante\\Clientes\\Clientes.csproj",
+        "packagesPath": "C:\\Users\\Luxor\\.nuget\\packages\\",
+        "outputPath": "C:\\AlarmaJF\\Proyecto\\AppJFalarmante\\Clientes\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Luxor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\AlarmaJF\\Proyecto\\AppJFalarmante\\Entidad\\Entidad.csproj": {
+                "projectPath": "C:\\AlarmaJF\\Proyecto\\AppJFalarmante\\Entidad\\Entidad.csproj"
+              },
+              "C:\\AlarmaJF\\Proyecto\\AppJFalarmante\\Negocio\\Negocio.csproj": {
+                "projectPath": "C:\\AlarmaJF\\Proyecto\\AppJFalarmante\\Negocio\\Negocio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\AlarmaJF\\Proyecto\\AppJFalarmante\\Datos\\Datos.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\AlarmaJF\\Proyecto\\AppJFalarmante\\Datos\\Datos.csproj",
+        "projectName": "Datos",
+        "projectPath": "C:\\AlarmaJF\\Proyecto\\AppJFalarmante\\Datos\\Datos.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\AlarmaJF\\Proyecto\\AppJFalarmante\\Entidad\\Entidad.csproj": {
+                "projectPath": "C:\\AlarmaJF\\Proyecto\\AppJFalarmante\\Entidad\\Entidad.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\AlarmaJF\\Proyecto\\AppJFalarmante\\Entidad\\Entidad.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\AlarmaJF\\Proyecto\\AppJFalarmante\\Entidad\\Entidad.csproj",
+        "projectName": "Entidad",
+        "projectPath": "C:\\AlarmaJF\\Proyecto\\AppJFalarmante\\Entidad\\Entidad.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\AlarmaJF\\Proyecto\\AppJFalarmante\\Negocio\\Negocio.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\AlarmaJF\\Proyecto\\AppJFalarmante\\Negocio\\Negocio.csproj",
+        "projectName": "Negocio",
+        "projectPath": "C:\\AlarmaJF\\Proyecto\\AppJFalarmante\\Negocio\\Negocio.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\AlarmaJF\\Proyecto\\AppJFalarmante\\Datos\\Datos.csproj": {
+                "projectPath": "C:\\AlarmaJF\\Proyecto\\AppJFalarmante\\Datos\\Datos.csproj"
+              },
+              "C:\\AlarmaJF\\Proyecto\\AppJFalarmante\\Entidad\\Entidad.csproj": {
+                "projectPath": "C:\\AlarmaJF\\Proyecto\\AppJFalarmante\\Entidad\\Entidad.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+D:\ProyectoDistribuidoJF\AppJFalarmante\Entidad\bin\Release\Entidad.dll
+D:\ProyectoDistribuidoJF\AppJFalarmante\Entidad\bin\Release\Entidad.pdb
+D:\ProyectoDistribuidoJF\AppJFalarmante\Entidad\obj\Release\Entidad.csproj.CoreCompileInputs.cache
+D:\ProyectoDistribuidoJF\AppJFalarmante\Entidad\obj\Release\Entidad.dll
+D:\ProyectoDistribuidoJF\AppJFalarmante\Entidad\obj\Release\Entidad.pdb

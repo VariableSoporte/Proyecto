@@ -1,0 +1,116 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Clientes/1.0.0": {
+        "dependencies": {
+          "Entidad": "1.0.0",
+          "Negocio": "1.0.0"
+        },
+        "runtime": {
+          "Clientes.dll": {}
+        }
+      },
+      "Datos/1.0.0": {
+        "dependencies": {
+          "Entidad": "1.0.0"
+        },
+        "runtime": {
+          "Datos.dll": {}
+        }
+      },
+      "Entidad/1.0.0": {
+        "runtime": {
+          "Entidad.dll": {}
+        }
+      },
+      "Negocio/1.0.0": {
+        "dependencies": {
+          "Datos": "1.0.0",
+          "Entidad": "1.0.0"
+        },
+        "runtime": {
+          "Negocio.dll": {}
+        }
+      },
+      "FireSharp/2.0.3.0": {
+        "runtime": {
+          "FireSharp.dll": {
+            "assemblyVersion": "2.0.3.0",
+            "fileVersion": "2.0.3.0"
+          }
+        }
+      },
+      "Microsoft.Threading.Tasks/1.0.12.0": {
+        "runtime": {
+          "Microsoft.Threading.Tasks.dll": {
+            "assemblyVersion": "1.0.12.0",
+            "fileVersion": "1.0.168.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/6.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.4.17603"
+          }
+        }
+      },
+      "Microsoft.Threading.Tasks.Extensions/1.0.12.0": {
+        "runtime": {
+          "Microsoft.Threading.Tasks.Extensions.dll": {
+            "assemblyVersion": "1.0.12.0",
+            "fileVersion": "1.0.168.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Clientes/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Datos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Entidad/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Negocio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FireSharp/2.0.3.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Threading.Tasks/1.0.12.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/6.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Threading.Tasks.Extensions/1.0.12.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
