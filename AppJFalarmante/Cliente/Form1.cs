@@ -37,6 +37,7 @@ namespace Cliente
             region.Exclude(rectanguloGrid);
             panel1.Region = region;
             Invalidate();
+            btnHistorialIncidentes.Enabled = false;
             
         }
 
