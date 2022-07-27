@@ -13,7 +13,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>true</IsWebBootstrapper>
-    <PublishUrl>D:\ProyectoDistribuidoJF\AppJFalarmante\published\</PublishUrl>
+    <PublishUrl>C:\AlarmaJF\Proyecto\published\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -23,7 +23,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://github.com/VariableSoporte/AppJFalarmante/blob/master/published/</InstallUrl>
+    <InstallUrl>https://github.com/VariableSoporte/Proyecto/blob/main/published/</InstallUrl>
     <UpdateUrl>https://github.com/VariableSoporte/AppJFalarmante/tree/v1.0.0/</UpdateUrl>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
