@@ -3,3 +3,8 @@ D:\ProyectoDistribuidoJF\AppJFalarmante\Entidad\bin\Debug\Entidad.pdb
 D:\ProyectoDistribuidoJF\AppJFalarmante\Entidad\obj\Debug\Entidad.csproj.CoreCompileInputs.cache
 D:\ProyectoDistribuidoJF\AppJFalarmante\Entidad\obj\Debug\Entidad.dll
 D:\ProyectoDistribuidoJF\AppJFalarmante\Entidad\obj\Debug\Entidad.pdb
+C:\AlarmaJF\Proyecto\AppJFalarmante\Entidad\bin\Debug\Entidad.dll
+C:\AlarmaJF\Proyecto\AppJFalarmante\Entidad\bin\Debug\Entidad.pdb
+C:\AlarmaJF\Proyecto\AppJFalarmante\Entidad\obj\Debug\Entidad.csproj.CoreCompileInputs.cache
+C:\AlarmaJF\Proyecto\AppJFalarmante\Entidad\obj\Debug\Entidad.dll
+C:\AlarmaJF\Proyecto\AppJFalarmante\Entidad\obj\Debug\Entidad.pdb
