@@ -74,3 +74,4 @@ C:\AlarmaJF\Proyecto\AppJFalarmante\Cliente\obj\Debug\Cliente.application
 C:\AlarmaJF\Proyecto\AppJFalarmante\Cliente\obj\Debug\Cliente.csproj.CopyComplete
 C:\AlarmaJF\Proyecto\AppJFalarmante\Cliente\obj\Debug\Cliente.exe
 C:\AlarmaJF\Proyecto\AppJFalarmante\Cliente\obj\Debug\Cliente.pdb
+C:\AlarmaJF\Proyecto\AppJFalarmante\Cliente\obj\Debug\Cliente.TrustInfo.xml
