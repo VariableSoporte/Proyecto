@@ -84,8 +84,7 @@ namespace Cliente
         }
 
         public async Task<NodoEntidad> agregarNodo(NodoEntidad nodo)
-        {
-            
+        {            
             return await NodoNegocio.AgregarNodo(nodo);
         }
 

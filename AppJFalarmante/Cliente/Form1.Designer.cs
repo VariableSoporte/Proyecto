@@ -58,7 +58,6 @@ namespace Cliente
             this.btnRegistrar = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnHistorialIncidentes = new Bunifu.Framework.UI.BunifuFlatButton();
             this.btnMapas = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.btnRegistroIncidentes = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuImageButton7 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuImageButton6 = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -436,7 +435,6 @@ namespace Cliente
             this.panel2.Controls.Add(this.btnRegistrar);
             this.panel2.Controls.Add(this.btnHistorialIncidentes);
             this.panel2.Controls.Add(this.btnMapas);
-            this.panel2.Controls.Add(this.btnRegistroIncidentes);
             this.panel2.Controls.Add(this.bunifuImageButton7);
             this.panel2.Controls.Add(this.bunifuImageButton6);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
@@ -466,7 +464,7 @@ namespace Cliente
             this.btnRegistrar.IconVisible = true;
             this.btnRegistrar.IconZoom = 90D;
             this.btnRegistrar.IsTab = false;
-            this.btnRegistrar.Location = new System.Drawing.Point(0, 432);
+            this.btnRegistrar.Location = new System.Drawing.Point(0, 375);
             this.btnRegistrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRegistrar.Name = "btnRegistrar";
             this.btnRegistrar.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(34)))), ((int)(((byte)(39)))));
@@ -502,7 +500,7 @@ namespace Cliente
             this.btnHistorialIncidentes.IconVisible = true;
             this.btnHistorialIncidentes.IconZoom = 90D;
             this.btnHistorialIncidentes.IsTab = false;
-            this.btnHistorialIncidentes.Location = new System.Drawing.Point(0, 268);
+            this.btnHistorialIncidentes.Location = new System.Drawing.Point(0, 211);
             this.btnHistorialIncidentes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnHistorialIncidentes.Name = "btnHistorialIncidentes";
             this.btnHistorialIncidentes.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(34)))), ((int)(((byte)(39)))));
@@ -515,6 +513,7 @@ namespace Cliente
             this.btnHistorialIncidentes.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnHistorialIncidentes.Textcolor = System.Drawing.Color.White;
             this.btnHistorialIncidentes.TextFont = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHistorialIncidentes.Click += new System.EventHandler(this.btnHistorialIncidentes_Click);
             // 
             // btnMapas
             // 
@@ -537,7 +536,7 @@ namespace Cliente
             this.btnMapas.IconVisible = true;
             this.btnMapas.IconZoom = 90D;
             this.btnMapas.IsTab = false;
-            this.btnMapas.Location = new System.Drawing.Point(1, 354);
+            this.btnMapas.Location = new System.Drawing.Point(1, 297);
             this.btnMapas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMapas.Name = "btnMapas";
             this.btnMapas.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(34)))), ((int)(((byte)(39)))));
@@ -551,41 +550,6 @@ namespace Cliente
             this.btnMapas.Textcolor = System.Drawing.Color.White;
             this.btnMapas.TextFont = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMapas.Click += new System.EventHandler(this.btnMapas_Click);
-            // 
-            // btnRegistroIncidentes
-            // 
-            this.btnRegistroIncidentes.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(139)))), ((int)(((byte)(87)))));
-            this.btnRegistroIncidentes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(34)))), ((int)(((byte)(39)))));
-            this.btnRegistroIncidentes.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnRegistroIncidentes.BorderRadius = 7;
-            this.btnRegistroIncidentes.ButtonText = "Registro Incidentes";
-            this.btnRegistroIncidentes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnRegistroIncidentes.DisabledColor = System.Drawing.Color.Gray;
-            this.btnRegistroIncidentes.Iconcolor = System.Drawing.Color.Transparent;
-            this.btnRegistroIncidentes.Iconimage = ((System.Drawing.Image)(resources.GetObject("btnRegistroIncidentes.Iconimage")));
-            this.btnRegistroIncidentes.Iconimage_right = null;
-            this.btnRegistroIncidentes.Iconimage_right_Selected = null;
-            this.btnRegistroIncidentes.Iconimage_Selected = null;
-            this.btnRegistroIncidentes.IconMarginLeft = 5;
-            this.btnRegistroIncidentes.IconMarginRight = 0;
-            this.btnRegistroIncidentes.IconRightVisible = true;
-            this.btnRegistroIncidentes.IconRightZoom = 0D;
-            this.btnRegistroIncidentes.IconVisible = true;
-            this.btnRegistroIncidentes.IconZoom = 90D;
-            this.btnRegistroIncidentes.IsTab = false;
-            this.btnRegistroIncidentes.Location = new System.Drawing.Point(0, 185);
-            this.btnRegistroIncidentes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.btnRegistroIncidentes.Name = "btnRegistroIncidentes";
-            this.btnRegistroIncidentes.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(34)))), ((int)(((byte)(39)))));
-            this.btnRegistroIncidentes.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(69)))), ((int)(((byte)(76)))));
-            this.btnRegistroIncidentes.OnHoverTextColor = System.Drawing.Color.LightGray;
-            this.btnRegistroIncidentes.selected = false;
-            this.btnRegistroIncidentes.Size = new System.Drawing.Size(229, 75);
-            this.btnRegistroIncidentes.TabIndex = 6;
-            this.btnRegistroIncidentes.Text = "Registro Incidentes";
-            this.btnRegistroIncidentes.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnRegistroIncidentes.Textcolor = System.Drawing.Color.White;
-            this.btnRegistroIncidentes.TextFont = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 
             // bunifuImageButton7
             // 
@@ -684,7 +648,6 @@ namespace Cliente
         private Bunifu.Framework.UI.BunifuImageButton btnCerrar;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton6;
         private Bunifu.Framework.UI.BunifuImageButton bunifuImageButton7;
-        private Bunifu.Framework.UI.BunifuFlatButton btnRegistroIncidentes;
         private Bunifu.Framework.UI.BunifuFlatButton btnMapas;
         private Bunifu.Framework.UI.BunifuFlatButton btnHistorialIncidentes;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse2;

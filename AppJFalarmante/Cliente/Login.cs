@@ -41,7 +41,9 @@ namespace Cliente
             {
                 if (await ingresoSistema(txtUsuario.Text.Replace(" ",""), txtContraseña.Text.Replace(" ", ""))){
                     Form1 vtnForm = new Form1();
+                    this.Visible = false;
                     vtnForm.Show();
+                    
 
                 }else
                 {

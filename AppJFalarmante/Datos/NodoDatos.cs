@@ -15,7 +15,6 @@ namespace Datos
     public static class NodoDatos
     {
 
-
         static IFirebaseConfig config = new FirebaseConfig
         {
             AuthSecret = "5mGJiJMVRl07l2LPIBGMVnaYWitmlh9q9vbyGwkc",
@@ -23,35 +22,6 @@ namespace Datos
         };
 
         static IFirebaseClient client = new FireSharp.FirebaseClient(config);
-
-        /*
-        public static async Task<List<NodoEntidad>> DevolverNodosAsync()
-        {
-            bool siguiente = true;
-            int i = -1;
-            List<NodoEntidad> listado = new List<NodoEntidad>();
-            while (siguiente)
-            {
-                i++;
-                try
-                {
-                    FirebaseResponse response = await client.GetAsync("Usuario/"+i);
-                    NodoEntidad obj = response.ResultAs<NodoEntidad>();
-                    if (obj == null)
-                    {
-                        siguiente = false;
-                    }else
-                    {
-                        listado.Add(obj);
-                    }
-                }
-                catch (Exception)
-                {
-                    throw;
-                }
-            }
-            return listado;
-        }*/
 
         public static async Task<List<NodoEntidad>> DevolverNodosAsync()
         {

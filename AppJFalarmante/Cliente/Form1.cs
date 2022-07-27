@@ -9,7 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Negocio;
 using Entidad;
-
+using System.Net;
+using System.Web.Script.Serialization;
+using System.IO;
 
 namespace Cliente
 {
@@ -111,7 +113,6 @@ namespace Cliente
             crdNodo.Visible = false;
             flowLayoutPanel1.AutoScroll = true;
             List<NodoEntidad> obj = await NodoNegocio.DevolverNodos();
-            Console.WriteLine("antes del obj");
             listaNodos.Clear();
             listaNodos = obj;
 
@@ -387,7 +388,10 @@ namespace Cliente
             Console.WriteLine(usuario.Nombre+" Editado");            
         }
 
-
+        private void btnHistorialIncidentes_Click(object sender, EventArgs e)
+        {
+            enviarNotificacion();
+        }
 
         private void verEnMapa(object sender, EventArgs e, NodoEntidad nodo)
         {
@@ -395,6 +399,61 @@ namespace Cliente
             vntMaps.mostrarNodo(nodo);
             vntMaps.unNodo(nodo);
             vntMaps.Show();
+        }
+
+        private static string enviarNotificacion()
+        {
+            string response;
+            try
+            {
+                string serverKey = "AAAARf7-9N0:APA91bGIlCfoOeuA_3zAUjyXy-m9hdctU8-9UG06pFZgtZw88MOaxkZKkkSAzcCpgCktBpBJTQXukbmi7dyn7xiaEdd94clFRYpO8v5esM4hcwETeoVeBDs5ZqmkuuxzJmYubcUvZIDW"; // Something very long
+                string senderId = "300630865117";
+                string deviceId = "/topics/enviaratodos";
+                WebRequest tRequest = WebRequest.Create("https://fcm.googleapis.com/fcm/send");
+
+                tRequest.Method = "post";
+                tRequest.ContentType = "application/json";
+                var data = new
+                {
+                    to = deviceId,
+                    notification = new
+                    {
+                        body = "hola",
+                        title = "mundo",
+                        sound = "Enabled"
+                    }
+                };
+
+                var serializer = new JavaScriptSerializer();
+                var json = serializer.Serialize(data);
+                Byte[] byteArray = Encoding.UTF8.GetBytes(json);
+                tRequest.Headers.Add(string.Format("Authorization: key={0}", serverKey));
+                tRequest.Headers.Add(string.Format("Sender: id={0}", senderId));
+                tRequest.ContentLength = byteArray.Length;
+
+                using (Stream dataStream = tRequest.GetRequestStream())
+                {
+                    dataStream.Write(byteArray, 0, byteArray.Length);
+                    using (WebResponse tResponse = tRequest.GetResponse())
+                    {
+                        using (Stream dataStreamResponse = tResponse.GetResponseStream())
+                        {
+                            using (StreamReader tReader = new StreamReader(dataStreamResponse))
+                            {
+                                String sResponseFromServer = tReader.ReadToEnd();
+                                response = sResponseFromServer;
+                                Console.WriteLine(response);
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                response = ex.Message;
+            }
+
+            return response;
         }
 
     }

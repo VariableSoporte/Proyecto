@@ -8,3 +8,4 @@ C:\AlarmaJF\Proyecto\AppJFalarmante\Entidad\bin\Debug\Entidad.pdb
 C:\AlarmaJF\Proyecto\AppJFalarmante\Entidad\obj\Debug\Entidad.csproj.CoreCompileInputs.cache
 C:\AlarmaJF\Proyecto\AppJFalarmante\Entidad\obj\Debug\Entidad.dll
 C:\AlarmaJF\Proyecto\AppJFalarmante\Entidad\obj\Debug\Entidad.pdb
+C:\AlarmaJF\Proyecto\AppJFalarmante\Entidad\obj\Debug\Entidad.csproj.AssemblyReference.cache
