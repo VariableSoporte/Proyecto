@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Entidad;
-using System.Text.Json;
 using System.Net.Http;
 using FireSharp.Interfaces;
 using FireSharp.Config;
